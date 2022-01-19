@@ -1,0 +1,126 @@
+/*style applies to entire page*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*style for header*/
+header {
+    padding: 20px 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(20, 18, 136);
+    color: #b3a3e7;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+header img {
+    width: 10%;
+    height: auto;
+}
+
+/*style for body*/
+body {
+    background-image: url("../images/geode-texture.jpeg");
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2{
+font-size: 30px;
+}
+/*about me styles*/
+.about-me {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: flex;
+}
+/* style for work part*/
+
+.work-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: flex;
+}
+.work-content img {
+    width: 100%;
+}
+
+.work-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.imgContainer {
+    padding-left: 20px;
+}
+
+.smallContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.smallContainer img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Horiseon, .Project-4 {
+    margin-right: 20px;
+}
+
+/*contact me styles*/
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: flex;
+}
+/*footer styles*/
+footer {
+    background: #0072bb;
+    padding: 40px 35px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .contact-info {
+    padding-left: 20px;
+  }
+  .about-me-info {
+    padding-left: 20px;
+  }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    smallContainer img {
+     width: 100%;
+    }
+    }
